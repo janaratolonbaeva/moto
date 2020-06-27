@@ -1,0 +1,150 @@
+h1,h2,h3,h4,h5,h6,p 
+  margin: 0
+  font-size: inherit
+body
+  font-size: 16px
+  line-height: 24px
+  font-family: $sourceSansPro
+  font-weight: 400
+  background: #fff
+  color: $colorFontMain
+.container 
+  width: 100%
+  max-width: 1180px
+  padding: 0 15px
+  margin: auto
+  min-width: 290px
+.hidden 
+  position: absolute
+  overflow: hidden
+  width: 0
+  height: 0
+  pointer-events: none
+.phone
+  font-weight: 700
+  font-size: 24px
+  &-block 
+    p 
+      font-size: 14px
+      line-height: 16px
+.btn
+  font-size: 16px
+  font-family: $sourceSansPro
+  font-weight: 400
+  color: $colorFontMain
+  box-shadow: 0px 3px 9.5px 0.5px rgba(0, 0, 0, 0.1)
+  line-height: 38px
+  padding: 0 20px
+  font-weight: 600
+  display: inline-block
+  transition: $transition
+  cursor: pointer
+  +borderRadius(50px, 1px, solid, transparent)
+  svg 
+    vertical-align: middle
+    transition: $transition
+  &:hover
+    svg
+      transform: translateX(10px)
+  &--default
+    background: #fbfbfb
+    color: $colorFontMain
+    border-color: #fbfbfb
+    svg 
+      fill: $danger
+    &:hover
+      background: $danger
+      color: #fff
+      border-color: $danger
+      svg
+        fill: #fff
+  &--danger
+    background: $danger
+    color: #fff
+    border-color: $danger
+    svg
+      fill: #fff
+    &:hover
+      background: #fbfbfb
+      color: $colorFontMain
+      svg
+        fill: $danger
+  &--grey
+    background: #f6f6f6
+    color: $danger
+    border-color: #f6f6f6
+    svg 
+      fill: $danger
+    &:hover
+      background: $danger
+      color: #fff
+      border-color: $danger
+      svg
+        fill: #fff
+  &--white
+    background: #fff
+    color: $danger
+    border-color: #fff
+    svg 
+      fill: $danger
+    &:hover
+      background: $danger
+      color: #fff
+      border-color: $danger
+      svg
+        fill: #fff
+  &--blackFont
+    background: #fff
+    border-color: #fff
+    &:hover
+      border-color: $danger
+      background: $danger
+      color: #fff
+.title
+  font-size: 32px
+  line-height: 32px
+  font-weight: 700
+  +mobile
+    font-size: 40px
+    line-height: 40px
+  +tablet
+    font-size: 48px
+    line-height: 48px
+  span 
+    font-weight: 400
+.label
+  display: block
+  font-weight: 700
+  text-transform: uppercase
+  text-align: center
+  background: url('../img/stock-bg.png') no-repeat
+.breadcrumbs 
+  padding: 20px 0
+  li 
+    display: inline-block
+    color: rgba(41, 41, 41, 0.8)
+    &:not(:last-child)
+      margin-right: 30px
+    a 
+      position: relative
+      &::after
+        +positionAbsBeforeAfterElements(6px, auto, auto, -20px, 8px, 10px)
+        background: url('../img/arrow-right.svg') no-repeat
+      &:hover
+        color: $danger
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,32 @@
+include mixin
+
+.filter
+  form.clearfix
+    .filter_box
+      h6 Цена
+      .filter_slider
+        #slider-range.slider-range
+        p
+          input.amount(type="text" id="amount" readonly)
+    +radio(motoRadioItem)
+    .filter_box
+      h6 Объем двигателя
+      select.filter_select
+        option до 300 см3
+        option до 400 см3
+        option до 500 см3
+    .filter_box(style="border: none;")
+      h6 Год выпуска
+      .clearfix
+        .filter_box-col(style="padding-right: 10px;")
+          select.filter_select
+            option 2010
+            option 2011
+            option 2012
+        .filter_box-col(style="padding-left: 10px;")
+          select.filter_select
+            option 2019
+            option 2018
+            option 2017
+
+

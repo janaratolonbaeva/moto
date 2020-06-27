@@ -1,0 +1,86 @@
+nav.sidenav(data-sidenav data-sidenav-toggle="#sidenav-toggle")
+  .sidenav-brand
+    a(href="index.html").logo
+      svg(height="75", width="200")
+        use(xlink:href="#logo")
+  .sidenav-header
+    a.phone(href="tel: 88007770751") 8 (800) 777-07-51
+  ul.sidenav-menu.sidenav-menu-main
+    li 
+      a(href="catalog-moto-1.html" data-sidenav-dropdown-toggle)
+        span.sidenav-link-title Мототехника
+    li 
+      a(href="parts-accessories.html" data-sidenav-dropdown-toggle)
+        span.sidenav-link-title Запчасти и аксессуары
+        span.sidenav-dropdown-icon(data-sidenav-dropdown-icon).show
+          i.material-icons arrow_drop_down
+        span.sidenav-dropdown-icon(data-sidenav-dropdown-icon)
+          i.material-icons arrow_drop_up
+      ul.sidenav-dropdown(data-sidenav-dropdown)
+        li
+          a(href="javascript:;")
+            span.sidenav-link-title Подножки
+        li
+          a(href="javascript:;")
+            span.sidenav-link-title Стекла и крепления
+        li
+          a(href="javascript:;")
+            span.sidenav-link-title Фары
+        li
+          a(href="javascript:;")
+            span.sidenav-link-title Тросы
+        li
+          a(href="catalog-parts-accessories-1.html")
+            span.sidenav-link-title Весь каталог
+    li 
+      a(href="motoshiny.html" data-sidenav-dropdown-toggle)
+        span.sidenav-link-title Мотошины
+        span.sidenav-dropdown-icon(data-sidenav-dropdown-icon).show
+          i.material-icons arrow_drop_down
+        span.sidenav-dropdown-icon(data-sidenav-dropdown-icon)
+          i.material-icons arrow_drop_up
+      ul.sidenav-dropdown(data-sidenav-dropdown)
+        li
+          a(href="javascript:;")
+            span.sidenav-link-title Шины
+        li
+          a(href="javascript:;")
+            span.sidenav-link-title Камеры
+        li
+          a(href="javascript:;")
+            span.sidenav-link-title Комплектующие
+        li
+          a(href="catalog-motoshiny-1.html")
+            span.sidenav-link-title Весь каталог
+    li 
+      a(href="motodress.html" data-sidenav-dropdown-toggle)
+        span.sidenav-link-title Мотоэкипировка
+        span.sidenav-dropdown-icon(data-sidenav-dropdown-icon).show
+          i.material-icons arrow_drop_down
+        span.sidenav-dropdown-icon(data-sidenav-dropdown-icon)
+          i.material-icons arrow_drop_up
+      ul.sidenav-dropdown(data-sidenav-dropdown)
+        li
+          a(href="javascript:;")
+            span.sidenav-link-title Шлемы
+        li
+          a(href="catalog-motoequipment-1.html")
+            span.sidenav-link-title Куртки
+        li
+          a(href="javascript:;")
+            span.sidenav-link-title Ботинки
+        li
+          a(href="javascript:;")
+            span.sidenav-link-title Перчатки
+        li
+          a(href="javascript:;")
+            span.sidenav-link-title Весь каталог
+  ul.sidenav-menu.sidenav-menu-bt
+    each item in menuItem
+      li 
+        a(href="javascript:;" data-sidenav-dropdown-toggle)
+          span.sidenav-link-title= item
+
+
+
+

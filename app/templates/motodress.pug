@@ -1,0 +1,48 @@
+doctype html
+html(lang="ru")
+  head
+    include includes/head
+    title= title
+  body
+    // SVG ICONS
+    svg.hidden
+      defs
+        include includes/svg
+    // svg icons end
+    // MOBILE MENU
+    include includes/sidenav
+    // mobile menu end
+    // HEADER
+    include includes/header
+    // header end
+    // LIST
+    include includes/mixin
+    .container
+      ul.breadcrumbs
+        li: a(href="index.html") Главная
+        li Мотоэкипировка
+      section.list_wrap
+        h2.title Мотокиэпировка в Севастополе
+        .list.list-1.clearfix
+          +box1(listMotodress1)
+        .list.list-2.clearfix
+          +box2(listMotodress2)
+      .list_text
+        p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem ex, quos ea voluptatibus sint beatae assumenda nobis fuga! Illum ipsum nam porro nesciunt incidunt perspiciatis, aliquam perferendis dolore odio hic nemo, ex ad, necessitatibus ab magnam beatae, dicta amet inventore laborum alias minus quibusdam saepe. Inventore fugiat illo laboriosam earum.
+    // list end
+    // FOOTER
+    include includes/footer
+    // footer end
+
+    include includes/scripts
+
+
+
+
+
+
+
+
+
+
+

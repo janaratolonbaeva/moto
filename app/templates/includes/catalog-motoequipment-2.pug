@@ -1,0 +1,33 @@
+include mixin
+
+.catalog_block
+  .catalog_subtitle
+    p Вы выбрали следующие параметры:
+  .choice_block
+    .choice
+      span DAINESE
+    .choice
+      span цена от 67 000 ₽ до 456 000 ₽
+    button(type="reset").reset Сбросить все
+  .catalog_header.clearfix
+    .catalog_header-right
+      select.catalog_select
+        option(value="#") по рейтингу
+        option(value="#") lorem
+        option(value="#") ipsum
+      a(href="catalog-motoequipment-jackets_vests-2.html").icon-list
+        svg(width="30", height="25" style="fill: #e1323d;")
+          use(xlink:href="#icon-list")
+      a(href="catalog-motoequipment-jackets_vests-1.html").icon-list
+        svg(width="21", height="20")
+          use(xlink:href="#icon-square")
+    .catalog_header-left
+      p Показано 
+        span 8 
+        | товаров
+  .catalog_cards.clearfix
+    +card2(catalogMotoequipment1)
+
+    
+
+

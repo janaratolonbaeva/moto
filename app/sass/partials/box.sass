@@ -1,0 +1,79 @@
+.box
+  background: url('../img/box-bg.jpg') no-repeat
+  background-position: center center
+  background-size: cover
+  +borderRadius(10px, 2px, dashed, #f6f6f6)
+  display: block
+  text-align: center
+  padding: 20px 10px 15px 15px
+  margin: auto
+  +container 
+    margin: 0
+  &:hover
+    .btn--blackFont
+      background: $danger
+      border-color: $danger
+      color: #fff
+  &-bg 
+    background: #fff
+  &_img
+    position: relative
+    img 
+      position: absolute
+      top: 50%
+      left: 50%
+      transform: translate(-50%, -50%)
+  h5 
+    font-weight: 700
+    background: url('../img/box-title-bg.png') no-repeat
+    background-position: center center
+    background-size: cover
+    padding: 5px 0
+    margin-bottom: 10px
+    text-transform: uppercase
+  .btn 
+    margin-top: 10px
+  &-1
+    max-width: 360px
+    .box_img 
+      height: 220px
+    h5
+      font-size: 20px
+      +mini
+        font-size: 24px
+  &-2
+    max-width: 360px
+    +mobile
+      max-width: 260px 
+    .box_img 
+      height: 160px
+    h5 
+      font-size: 20px
+      +mini
+        font-size: 18px
+        text-transform: uppercase
+  &-3
+    max-width: 300px
+    +mobile
+      max-width: 260px
+    .box_img
+      height: 230px
+      &-text
+        margin-top: 44px
+    p 
+      font-weight: 600
+      font-size: 24px
+      line-height: 30px
+      span
+        font-weight: 700
+
+
+
+
+
+
+
+
+
+
+

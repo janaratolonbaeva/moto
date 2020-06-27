@@ -1,0 +1,144 @@
+.news
+  padding: 40px 0
+  &_block
+    max-width: 700px
+    margin: auto
+    +desktop
+      max-width: 100%
+      margin: 0
+  &_text
+    margin-bottom: 20px
+    text-align: center
+    +mobile
+      text-align: left
+      width: 280px
+      float: left
+      padding-right: 15px   
+    +desktop
+      margin-bottom: 0
+    .title  
+      margin-bottom: 20px
+    p
+      color: rgba(41, 41, 41, 0.8)
+      line-height: 20px
+      margin-bottom: 30px
+  &_stock
+    max-width: 265px
+    background-image: url('../img/news-stock-bg.jpg')
+    background-repeat: no-repeat
+    background-size: cover
+    position: relative
+    z-index: 2
+    padding: 20px 20px 30px
+    border-radius: 10px
+    overflow: hidden
+    margin: auto auto 20px  
+    +mobile
+      margin: 0 0 20px
+    +desktop
+      height: 304px
+      margin: 0
+    h6 
+      font-size: 30px
+      line-height: 30px
+      font-weight: 700
+      margin-bottom: 40px
+      span 
+        display: block
+        font-size: 24px
+        font-weight: 600
+      small 
+        font-weight: 600
+        font-size: 24px
+        color: $danger
+    .stock-label
+      position: absolute
+      bottom: 80px
+      right: -15px
+      font-weight: 700
+      font-size: 200px
+      color: rgba(41, 41, 41, 0.102)
+      z-index: -1
+      small 
+        font-size: 60px
+    .btn
+      +container
+        position: absolute
+        bottom: 30px
+        left: 20px
+    &-wrap
+      +mobile
+        float: right
+        width: 280px
+        padding-left: 15px
+    .label
+      width: 107px
+      line-height: 37px
+      background-size: cover
+      margin-bottom: 45px
+  &_info 
+    clear: both
+    +desktop
+      clear: none
+      float: left
+      width: calc(100% - 560px)
+      padding: 0 15px
+    &-col
+      margin-bottom: 20px
+      +container
+        margin-bottom: 0
+        float: left
+        width: 50%
+      &:last-child
+        +container
+          .news_info-item--sm
+            float: right
+    &-item
+      display: block
+      padding: 15px 20px
+      +borderRadius(10px, 2px, dashed, $borderColorDefult)
+      &:hover
+        @extend %cardHover
+        .link
+          text-decoration: underline
+          svg 
+            transform: translateX(10px)
+      .date 
+        font-size: 14px
+        color: rgba(41, 41, 41, 0.6)
+        display: block
+        margin-bottom: 10px
+      h5 
+        margin-bottom: 10px
+        font-weight: 600
+      .link 
+        font-weight: 600
+        color: $danger
+        transition: $transition
+        svg 
+          fill: $danger
+          transition: $transition
+          vertical-align: middle
+      &--lg 
+        margin-bottom: 20px
+        h5 
+          +container
+            font-size: 22px
+            line-height: 22px
+            max-width: 370px
+      &--sm 
+        +container
+          max-width: 270px
+        h5 
+          font-size: 16px
+          line-height: 18px
+          
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,98 @@
+doctype html
+html(lang="ru")
+  head
+    include includes/head
+    title= title
+  body
+    // SVG ICONS
+    svg.hidden
+      defs
+        include includes/svg
+        include includes/svg-card
+    // svg icons end
+    // MOBILE MENU
+    include includes/sidenav
+    // mobile menu end
+    // HEADER
+    include includes/header
+    // header end
+    // CARD
+    .container
+      ul.breadcrumbs
+        li: a(href="index.html") Главная
+        li: a(href="parts-accessories.html") Запчасти и аксессуары
+        li: a(href="#") Выхлопные системы
+        li MegaParts выхлопная система Hexagon 250-600 СС
+      .product
+        .product_row.clearfix
+          .product_img.clearfix
+            .product_slider-for
+              .div
+                img(src="uploads/product-parts-acc-img.jpg", alt="")
+              .div
+                img(src="uploads/product-parts-acc-img.jpg", alt="")
+              .div
+                img(src="uploads/product-parts-acc-img.jpg", alt="")
+              .div
+                img(src="uploads/product-parts-acc-img.jpg", alt="")
+            .product_slider-nav
+              .slide-nav
+                img(src="uploads/product-parts-acc-img.jpg", alt="")
+              .slide-nav
+                img(src="uploads/product-parts-acc-img.jpg", alt="")
+              .slide-nav
+                img(src="uploads/product-parts-acc-img.jpg", alt="")
+              .slide-nav
+                img(src="uploads/product-parts-acc-img.jpg", alt="")
+          .product_content
+            h4 MegaParts выхлопная система Hexagon 250-600 СС
+            p.code Артикул : FFCKA005
+            .character
+              h6 характеристики
+              p Отсутствует.
+              .clearfix
+                span.price 6 600 ₽
+                a(href="#").buy Купить
+            .product_form
+              p Наличие, размер и цвет уточняйте у менеджера
+              .product_form-block
+                form
+                  h6 Есть вопросы?
+                  .clearfix
+                    input.input(type="tel", placeholder="Номер телефона")
+                    input(type="submit" value="Получить консультацию").btn.btn--white
+        .product_row.clearfix
+          .product_description
+            h5 Описание
+            p Сложно сказать, почему действия представителей оппозиции, вне зависимости от их уровня, должны быть разоблачены. А еще представители современных социальных резервов объединены в целые кластеры себе подобных! Сложно сказать, почему действия
+          .product_rating
+            h5 рейтинг
+            .rating.clearfix
+              .rating_num.clearfix
+                i
+                span.num 8,3 
+                  small из 
+                  span.num--sm 10
+                i
+              .rating_info
+                p 10 оценок
+                a(href="#") Оценить
+      include includes/feautures-pages
+    include includes/notice
+    // Card end
+    // FOOTER
+    include includes/footer
+    // footer end
+
+    include includes/scripts
+
+
+
+
+
+
+
+
+
+
+

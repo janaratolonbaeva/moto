@@ -1,0 +1,211 @@
+.filter
+  width: 100%
+  border-radius: 10px
+  background: #fafafa
+  padding: 0 10px 30px
+  +desktop
+    width: 265px
+    padding: 20px 20px 30px 25px
+  &_box
+    padding: 25px 20px
+    width: 250px
+    margin: auto
+    +minWidth550
+      margin: 0
+      width: 50%
+      float: left
+    +tablet
+      width: 33.3%
+    +minWidth850
+      width: 25%
+    +desktop
+      float: none
+      width: 100%
+      padding: 0 0 25px
+      border-bottom: 2px dashed #dddddd
+    &:not(:first-child)
+      +desktop
+        padding-top: 25px
+    h6 
+      text-transform: uppercase
+      font-weight: 600
+      margin-bottom: 20px
+    .link 
+      text-decoration: underline
+      font-weight: 600
+      &:hover
+        color: $danger
+    &-col
+      float: left
+      width: 50%
+  &_slider
+    .ui-slider
+      margin-bottom: 20px
+      &-horizontal
+        height: 6px
+        background: #fff
+        border: none
+        box-shadow: inset 0px -1px 0px 0px rgba(0, 1, 5, 0.1)
+      .ui-widget-header
+        background: $danger
+      .ui-state-default, .ui-widget-content .ui-state-default
+        background: $danger
+        border: none
+        border-radius: 50%
+        width: 16px
+        height: 16px
+        cursor: pointer
+      .ui-slider-horizontal .ui-slider-handle
+        top: -0.4em
+      .ui-slider-handle::before
+        +positionAbsBeforeAfterElements(-4px, auto, -4px, auto, 22px, 22px)
+        background: transparent
+        +borderRadius(50%, 1px, dashed, $danger)
+    .amount
+      border: none
+      background: transparent
+      font-family: $sourceSansPro
+      font-size: 16px
+      font-weight: 400
+      line-height: 24px
+      color: rgba(41, 41, 41, 0.6)
+      width: 100%
+  &_radio
+    margin-bottom: 20px
+    input 
+      display: none
+      &:checked ~ label
+        &::before
+          opacity: 1
+        &::after
+          border-color: $danger
+    label
+      color: rgba(41, 41, 41, 0.8)
+      padding-left: 35px
+      position: relative
+      cursor: pointer
+      &::before
+        +positionAbsBeforeAfterElements(0, auto, 5px, auto, 14px, 14px)
+        border-radius: 50%
+        background: $danger
+        opacity: 0
+        transition: $transition
+      &::after
+        +positionAbsBeforeAfterElements(-5px, auto, 0, auto, 20px, 20px)
+        background: transparent
+        +borderRadius(50%, 2px, dashed, rgba(41, 41, 41, 0.8))
+        transition: $transition
+  &_check-circle
+    display: inline-block
+    margin-right: 15px
+    input 
+      display: none
+      &:checked ~ label.black
+        &::after
+          background: #000
+          border: 2px solid #f6f6f6
+      &:checked ~ label.white
+        &::after
+          background: #fff
+          border: 2px solid #f6f6f6
+      &:checked ~ label.red
+        &::after
+          background: $danger
+          border: 2px solid #f6f6f6
+    label
+      color: rgba(41, 41, 41, 0.8)
+      position: relative
+      cursor: pointer
+      width: 30px
+      height: 30px
+      display: block
+      &::before
+        +positionAbsBeforeAfterElements(-2px, auto, 5px, auto, 18px, 18px)
+        border-radius: 50%
+        background: transparent
+        transition: $transition
+        border: 2px solid #f6f6f6
+      &::after
+        +positionAbsBeforeAfterElements(-7px, auto, 0, auto, 28px, 28px)
+        background: transparent
+        +borderRadius(50%, 2px, dashed, #a4a4a4)
+        transition: $transition
+    .black
+      &::before
+        background: #000
+    .white
+      &::before
+        background: #fff
+    .red 
+      &::before
+        background: $danger
+  &_check-size
+    margin-bottom: 20px
+    display: inline-block
+    margin-right: 10px
+    input 
+      display: none
+      &:checked ~ label
+        color: $danger
+    label
+      color: $colorFontMain
+      transition: $transition
+      position: relative
+      cursor: pointer
+  .jq-selectbox
+    width: 100%
+    &__select
+      +borderRadius(4px, 1px, solid, $borderColorDefult)
+      font: 14px/28px $sourceSansPro
+      font-weight: 400
+      background: none
+      box-shadow: none
+      height: 30px
+      padding: 0 40px 0 15px
+      width: 100%
+      color: rgba(41, 41, 41, 0.8)
+      &-text
+        overflow: auto
+        white-space: normal
+        text-overflow: inherit
+    &__trigger
+      border: none
+      &-arrow
+        border: none
+        border-radius: 50%
+        width: 22px
+        height: 22px
+        background: rgb(246, 246, 246)
+        top: 50%
+        left: 50%
+        transform: translate(-50%, -50%)
+        &::before
+          +positionAbsBeforeAfterElements(5px, auto, 5px, auto, 15px, 15px)
+          background: url('../img/arrow-down-grey.svg') no-repeat
+          transition: $transition
+    &__dropdown
+      +borderRadius(4px, 1px, solid, $danger)
+      overflow: hidden
+      position: static
+      li
+        &.selected
+          background: #f6f6f6
+          color: $colorFontMain
+          &:hover
+            color: #fff
+        &:hover
+          background: $danger
+    &.focused
+      .jq-selectbox__select
+        border: 1px solid $danger
+      .jq-selectbox__trigger-arrow::before
+        transform: rotateX(180deg)
+        top: 2px
+
+
+
+
+
+
+
+

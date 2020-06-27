@@ -1,0 +1,52 @@
+doctype html
+html(lang="ru")
+  head
+    include includes/head
+    title= title
+  body
+    // SVG ICONS
+    svg.hidden
+      defs
+        include includes/svg
+        include includes/svg-main
+    // svg icons end
+    // MOBILE MENU
+    include includes/sidenav
+    // mobile menu end
+    .promo_wrap
+      section.promo
+        // HEADER
+        include includes/header
+        // header end
+        // PROMO
+        include includes/promo
+        // promo end
+    // FEAUTURES
+    include includes/feautures
+    // feautures end
+    // PREVIEWS
+    include includes/previews
+    // previews end
+    // POPULAR
+    include includes/popular
+    // popular end
+    // ABOUT
+    include includes/about
+    // about end
+    // NEWS
+    include includes/news
+    // news end
+    // MAP
+    include includes/map
+    // map end
+    // FOOTER
+    include includes/footer
+    // footer end
+    
+    script(src="https://api-maps.yandex.ru/2.1/?apikey=&lt;ваш API-ключ&gt;&amp;lang=ru_RU" type="text/javascript") 
+    include includes/scripts
+    script(src="js/map.js")
+
+
+
+

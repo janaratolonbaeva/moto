@@ -1,0 +1,1230 @@
+{
+  "title": "Moto Style - интернет магазин",
+  "menuItem": [
+    "О нас",
+    "Доставка и оплата",
+    "Акции",
+    "Новости",
+    "Контакты"
+  ],
+  "navItem": [
+    {
+      "href": "catalog-moto-1.html",
+      "height": "50",
+      "width": "70",
+      "id": "moto",
+      "text": "Мототехника"
+    },
+    {
+      "href": "parts-accessories.html",
+      "height": "41",
+      "width": "41",
+      "id": "piston",
+      "text": "Запчасти и аксессуары",
+      "dropdown": [
+        {
+          "href": "#",
+          "text": "Подножки"
+        },
+        {
+          "href": "#",
+          "text": "Стекла и крепления"
+        },
+        {
+          "href": "#",
+          "text": "Фары"
+        },
+        {
+          "href": "#",
+          "text": "Тросы"
+        },
+        {
+          "href": "catalog-parts-accessories-1.html",
+          "text": "Выхлопные системы"
+        },
+        {
+          "href": "#",
+          "text": "Весь каталог",
+          "class": "underline"
+        }
+      ]
+    },
+    {
+      "href": "motoshiny.html",
+      "height": "35",
+      "width": "35",
+      "id": "tire",
+      "text": "Мотошины",
+      "dropdown": [
+        {
+          "href": "catalog-motoshiny-1.html",
+          "text": "Шины"
+        },
+        {
+          "href": "#",
+          "text": "Камеры"
+        },
+        {
+          "href": "#",
+          "text": "Комплектующие"
+        },
+        {
+          "href": "#",
+          "text": "Весь каталог",
+          "class": "underline"
+        }
+      ]
+    },
+    {
+      "href": "motodress.html",
+      "height": "36",
+      "width": "37",
+      "id": "helmet",
+      "text": "Мотоэкипировка",
+      "dropdown": [
+        {
+          "href": "#",
+          "text": "Шлемы"
+        },
+        {
+          "href": "catalog-motoequipment-jackets_vests-1.html",
+          "text": "Куртки"
+        },
+        {
+          "href": "#",
+          "text": "Ботинки"
+        },
+        {
+          "href": "#",
+          "text": "Перчатки"
+        },
+        {
+          "href": "#",
+          "text": "Весь каталог",
+          "class": "underline"
+        }
+      ]
+    }
+  ],
+  "popularCard": [
+    {
+      "image": "popular-img-1",
+      "title": "MegaParts горловина бака Kawasaki",
+      "code": "Артикул : FFCKA005",
+      "realPrice": "2 000 ₽",
+      "price": "1 700 ₽",
+      "stock": "АКЦИЯ"
+    },
+    {
+      "image": "popular-img-2",
+      "title": "PARTS UNLIMITED трос тормоза универсальный",
+      "code": "Артикул : FFCKA005",
+      "price": "850 ₽"
+    },
+    {
+      "image": "popular-img-3",
+      "title": "Комплект подшипников для колеса ALL BALLS 25-1403",
+      "code": "Артикул : FFCKA005",
+      "price": "1 950 ₽"
+    },
+    {
+      "image": "popular-img-4",
+      "title": "MegaParts Фара CB400V-tec",
+      "code": "Артикул : FFCKA005",
+      "price": "7 450 ₽"
+    },
+    {
+      "image": "popular-img-1",
+      "title": "MegaParts горловина бака Kawasaki",
+      "code": "Артикул : FFCKA005",
+      "realPrice": "2 000 ₽",
+      "price": "1 700 ₽",
+      "stock": "АКЦИЯ"
+    },
+    {
+      "image": "popular-img-2",
+      "title": "PARTS UNLIMITED трос тормоза универсальный",
+      "code": "Артикул : FFCKA005",
+      "price": "850 ₽"
+    },
+    {
+      "image": "popular-img-3",
+      "title": "Комплект подшипников для колеса ALL BALLS 25-1403",
+      "code": "Артикул : FFCKA005",
+      "price": "1 950 ₽"
+    },
+    {
+      "image": "popular-img-4",
+      "title": "MegaParts Фара CB400V-tec",
+      "code": "Артикул : FFCKA005",
+      "price": "7 450 ₽"
+    }
+  ],
+  "popularMenu": [
+    {
+      "href": "#",
+      "height": "30",
+      "width": "35",
+      "id": "moto",
+      "text": "Мототехника"
+    },
+    {
+      "href": "#",
+      "height": "27",
+      "width": "27",
+      "id": "piston",
+      "text": "Запчасти"
+    },
+    {
+      "href": "#",
+      "height": "25",
+      "width": "25",
+      "id": "tire",
+      "text": "Мотошины"
+    },
+    {
+      "href": "#",
+      "height": "24",
+      "width": "26",
+      "id": "helmet",
+      "text": "Мотоэкипировка"
+    }
+  ],
+  "footerTopMenu1": [
+    "О нас",
+    "Доставка и оплата",
+    "Акции",
+    "Новости",
+    "Контакты"
+  ],
+  "footerTopMenu2": [
+    {
+      "href": "#",
+      "link": "Шлемы"
+    },
+    {
+      "href": "catalog-motoequipment-jackets_vests-1.html",
+      "link": "Куртки"
+    },
+    {
+      "href": "#",
+      "link": "Ботинки"
+    },
+    {
+      "href": "#",
+      "link": "Перчатки"
+    },
+    {
+      "href": "#",
+      "link": "Весь ка талог",
+      "class": "underline"
+    }
+  ],
+  "footerTopMenu3": [
+    {
+      "href": "#",
+      "link": "Подножки"
+    },
+    {
+      "href": "#",
+      "link": "Стекла и крепления"
+    },
+    {
+      "href": "#",
+      "link": "Фары"
+    },
+    {
+      "href": "#",
+      "link": "Тросы"
+    },
+    {
+      "href": "catalog-parts-accessories-1.html",
+      "link": "Выхлопные системы"
+    },
+    {
+      "href": "#",
+      "link": "Весь ка талог",
+      "class": "underline"
+    }
+  ],
+  "partsAccesRadioItem": [
+    {
+      "title": "Производитель",
+      "radio": [
+        {
+          "id": "manufacturer1",
+          "name": "manufacturer",
+          "for": "manufacturer1",
+          "label": "Delta",
+          "checked": "checked"
+        },
+        {
+          "id": "manufacturer2",
+          "name": "manufacturer",
+          "for": "manufacturer2",
+          "label": "Не задано"
+        }
+      ]
+    },
+    {
+      "title": "материал",
+      "radio": [
+        {
+          "id": "material1",
+          "name": "material",
+          "for": "material1",
+          "label": "Композит",
+          "checked": "checked"
+        },
+        {
+          "id": "material2",
+          "name": "material",
+          "for": "material2",
+          "label": "Не задано"
+        }
+      ]
+    }
+  ],
+  "catalogPartsAcces1": [
+    {
+      "image": "catalog-parts-acc-img-1",
+      "title": "MegaParts выхлопная система Hexagon 250-600 СС",
+      "code": "Артикул : FFCKA005",
+      "price": "6 600 ₽"
+    },
+    {
+      "image": "catalog-parts-acc-img-1",
+      "title": "MegaParts выхлопная система Hexagon 250-600 СС",
+      "code": "Артикул : FFCKA005",
+      "price": "6 600 ₽"
+    },
+    {
+      "image": "catalog-parts-acc-img-1",
+      "title": "MegaParts выхлопная система Hexagon 250-600 СС",
+      "code": "Артикул : FFCKA005",
+      "price": "6 600 ₽"
+    },
+    {
+      "image": "catalog-parts-acc-img-1",
+      "title": "MegaParts выхлопная система Hexagon 250-600 СС",
+      "code": "Артикул : FFCKA005",
+      "price": "6 600 ₽"
+    },
+    {
+      "image": "catalog-parts-acc-img-1",
+      "title": "MegaParts выхлопная система Hexagon 250-600 СС",
+      "code": "Артикул : FFCKA005",
+      "price": "6 600 ₽"
+    },
+    {
+      "image": "catalog-parts-acc-img-1",
+      "title": "MegaParts выхлопная система Hexagon 250-600 СС",
+      "code": "Артикул : FFCKA005",
+      "price": "6 600 ₽"
+    },
+    {
+      "image": "catalog-parts-acc-img-1",
+      "title": "MegaParts выхлопная система Hexagon 250-600 СС",
+      "code": "Артикул : FFCKA005",
+      "price": "6 600 ₽"
+    },
+    {
+      "image": "catalog-parts-acc-img-1",
+      "title": "MegaParts выхлопная система Hexagon 250-600 СС",
+      "code": "Артикул : FFCKA005",
+      "price": "6 600 ₽"
+    }
+  ],
+  "catalogPartsAcces2": [
+    {
+      "image": "catalog-parts-acc-img-1",
+      "title": "MegaParts выхлопная система Hexagon 250-600 СС",
+      "code": "Артикул : FFCKA005",
+      "price": "6 600 ₽"
+    },
+    {
+      "image": "catalog-parts-acc-img-1",
+      "title": "MegaParts выхлопная система Hexagon 250-600 СС",
+      "code": "Артикул : FFCKA005",
+      "price": "6 600 ₽"
+    },
+    {
+      "image": "catalog-parts-acc-img-1",
+      "title": "MegaParts выхлопная система Hexagon 250-600 СС",
+      "code": "Артикул : FFCKA005",
+      "price": "6 600 ₽"
+    },
+    {
+      "image": "catalog-parts-acc-img-1",
+      "title": "MegaParts выхлопная система Hexagon 250-600 СС",
+      "code": "Артикул : FFCKA005",
+      "price": "6 600 ₽"
+    },
+    {
+      "image": "catalog-parts-acc-img-1",
+      "title": "MegaParts выхлопная система Hexagon 250-600 СС",
+      "code": "Артикул : FFCKA005",
+      "price": "6 600 ₽"
+    },
+    {
+      "image": "catalog-parts-acc-img-1",
+      "title": "MegaParts выхлопная система Hexagon 250-600 СС",
+      "code": "Артикул : FFCKA005",
+      "price": "6 600 ₽"
+    },
+    {
+      "image": "catalog-parts-acc-img-1",
+      "title": "MegaParts выхлопная система Hexagon 250-600 СС",
+      "code": "Артикул : FFCKA005",
+      "price": "6 600 ₽"
+    },
+    {
+      "image": "catalog-parts-acc-img-1",
+      "title": "MegaParts выхлопная система Hexagon 250-600 СС",
+      "code": "Артикул : FFCKA005",
+      "price": "6 600 ₽"
+    }
+  ],
+  "motoRadioItem": [
+    {
+      "title": "ТИП МОТОЦИКЛА",
+      "radio": [
+        {
+          "id": "type1",
+          "name": "type",
+          "for": "type1",
+          "label": "Спортивный",
+          "checked": "checked"
+        },
+        {
+          "id": "type2",
+          "name": "type",
+          "for": "type2",
+          "label": "Туристический"
+        },
+        {
+          "id": "type3",
+          "name": "type",
+          "for": "type3",
+          "label": "Дорожный"
+        },
+        {
+          "id": "type4",
+          "name": "type",
+          "for": "type4",
+          "label": "Круизер"
+        },
+        {
+          "id": "type5",
+          "name": "type",
+          "for": "type5",
+          "label": "Внедорожный"
+        }
+      ]
+    },
+    {
+      "title": "Производитель",
+      "link": "Ещё",
+      "radio": [
+        {
+          "id": "manufacturer1",
+          "name": "manufacturer",
+          "for": "manufacturer1",
+          "label": "BMW",
+          "checked": "checked"
+        },
+        {
+          "id": "manufacturer2",
+          "name": "manufacturer",
+          "for": "manufacturer2",
+          "label": "Suzuki"
+        },
+        {
+          "id": "manufacturer3",
+          "name": "manufacturer",
+          "for": "manufacturer3",
+          "label": "Honda"
+        },
+        {
+          "id": "manufacturer4",
+          "name": "manufacturer",
+          "for": "manufacturer4",
+          "label": "Ducati"
+        },
+        {
+          "id": "manufacturer5",
+          "name": "manufacturer",
+          "for": "manufacturer5",
+          "label": "Kawasaki"
+        }
+      ]
+    }
+  ],
+  "catalogMoto1": [
+    {
+      "image": "catalog-moto-img-1",
+      "title": "Aprilia Caponord 1200 Travel Pack",
+      "code": "Артикул : FFCKA005",
+      "info": ["1 197 см3", "125 л.с.", "228 кг"],
+      "price": "1 018 000 ₽"
+    },
+    {
+      "image": "catalog-moto-img-1",
+      "title": "Aprilia Caponord 1200 Travel Pack",
+      "code": "Артикул : FFCKA005",
+      "info": ["1 197 см3", "125 л.с.", "228 кг"],
+      "realPrice": "1 500 000 ₽",
+      "price": "1 018 000 ₽",
+      "stock": "-20%"
+    },
+    {
+      "image": "catalog-moto-img-1",
+      "title": "Aprilia Caponord 1200 Travel Pack",
+      "code": "Артикул : FFCKA005",
+      "info": ["1 197 см3", "125 л.с.", "228 кг"],
+      "price": "1 018 000 ₽"
+    },
+    {
+      "image": "catalog-moto-img-1",
+      "title": "Aprilia Caponord 1200 Travel Pack",
+      "code": "Артикул : FFCKA005",
+      "info": ["1 197 см3", "125 л.с.", "228 кг"],
+      "price": "1 018 000 ₽"
+    },
+    {
+      "image": "catalog-moto-img-1",
+      "title": "Aprilia Caponord 1200 Travel Pack",
+      "code": "Артикул : FFCKA005",
+      "info": ["1 197 см3", "125 л.с.", "228 кг"],
+      "price": "1 018 000 ₽"
+    },
+    {
+      "image": "catalog-moto-img-1",
+      "title": "Aprilia Caponord 1200 Travel Pack",
+      "code": "Артикул : FFCKA005",
+      "info": ["1 197 см3", "125 л.с.", "228 кг"],
+      "price": "1 018 000 ₽"
+    },
+    {
+      "image": "catalog-moto-img-1",
+      "title": "Aprilia Caponord 1200 Travel Pack",
+      "code": "Артикул : FFCKA005",
+      "info": ["1 197 см3", "125 л.с.", "228 кг"],
+      "price": "1 018 000 ₽"
+    },
+    {
+      "image": "catalog-moto-img-1",
+      "title": "Aprilia Caponord 1200 Travel Pack",
+      "code": "Артикул : FFCKA005",
+      "info": ["1 197 см3", "125 л.с.", "228 кг"],
+      "realPrice": "1 500 000 ₽",
+      "price": "1 018 000 ₽",
+      "stock": "-20%"
+    },
+    {
+      "image": "catalog-moto-img-1",
+      "title": "Aprilia Caponord 1200 Travel Pack",
+      "code": "Артикул : FFCKA005",
+      "info": ["1 197 см3", "125 л.с.", "228 кг"],
+      "price": "1 018 000 ₽"
+    },
+    {
+      "image": "catalog-moto-img-1",
+      "title": "Aprilia Caponord 1200 Travel Pack",
+      "code": "Артикул : FFCKA005",
+      "info": ["1 197 см3", "125 л.с.", "228 кг"],
+      "price": "1 018 000 ₽"
+    },
+    {
+      "image": "catalog-moto-img-1",
+      "title": "Aprilia Caponord 1200 Travel Pack",
+      "code": "Артикул : FFCKA005",
+      "info": ["1 197 см3", "125 л.с.", "228 кг"],
+      "price": "1 018 000 ₽"
+    },
+    {
+      "image": "catalog-moto-img-1",
+      "title": "Aprilia Caponord 1200 Travel Pack",
+      "code": "Артикул : FFCKA005",
+      "info": ["1 197 см3", "125 л.с.", "228 кг"],
+      "price": "1 018 000 ₽"
+    }
+  ],
+  "catalogMoto2": [
+    {
+      "image": "catalog-moto-img-1",
+      "title": "Aprilia Caponord 1200 Travel Pack",
+      "code": "Артикул : FFCKA005",
+      "info": ["1 197 см3", "125 л.с.", "228 кг"],
+      "price": "1 018 000 ₽"
+    },
+    {
+      "image": "catalog-moto-img-1",
+      "title": "Aprilia Caponord 1200 Travel Pack",
+      "code": "Артикул : FFCKA005",
+      "info": ["1 197 см3", "125 л.с.", "228 кг"],
+      "price": "1 018 000 ₽"
+    },
+    {
+      "image": "catalog-moto-img-1",
+      "title": "Aprilia Caponord 1200 Travel Pack",
+      "code": "Артикул : FFCKA005",
+      "info": ["1 197 см3", "125 л.с.", "228 кг"],
+      "price": "1 018 000 ₽"
+    }
+  ],
+  "catalogMotoshiny1": [
+    {
+      "image": "catalog-motoshiny-img-1",
+      "title": "3D Ultra Sport Front AVON",
+      "code": "Артикул : FFCKA005",
+      "info": ["120/70ZR17 58W"],
+      "price": "12 850 ₽"
+    },
+    {
+      "image": "catalog-motoshiny-img-1",
+      "title": "3D Ultra Sport Front AVON",
+      "code": "Артикул : FFCKA005",
+      "info": ["120/70ZR17 58W"],
+      "price": "12 850 ₽"
+    },
+    {
+      "image": "catalog-motoshiny-img-1",
+      "title": "3D Ultra Sport Front AVON",
+      "code": "Артикул : FFCKA005",
+      "info": ["120/70ZR17 58W"],
+      "price": "12 850 ₽"
+    },
+    {
+      "image": "catalog-motoshiny-img-1",
+      "title": "3D Ultra Sport Front AVON",
+      "code": "Артикул : FFCKA005",
+      "info": ["120/70ZR17 58W"],
+      "price": "12 850 ₽"
+    },
+    {
+      "image": "catalog-motoshiny-img-1",
+      "title": "3D Ultra Sport Front AVON",
+      "code": "Артикул : FFCKA005",
+      "info": ["120/70ZR17 58W"],
+      "price": "12 850 ₽"
+    },
+    {
+      "image": "catalog-motoshiny-img-1",
+      "title": "3D Ultra Sport Front AVON",
+      "code": "Артикул : FFCKA005",
+      "info": ["120/70ZR17 58W"],
+      "price": "12 850 ₽"
+    },
+    {
+      "image": "catalog-motoshiny-img-1",
+      "title": "3D Ultra Sport Front AVON",
+      "code": "Артикул : FFCKA005",
+      "info": ["120/70ZR17 58W"],
+      "price": "12 850 ₽"
+    },
+    {
+      "image": "catalog-motoshiny-img-1",
+      "title": "3D Ultra Sport Front AVON",
+      "code": "Артикул : FFCKA005",
+      "info": ["120/70ZR17 58W"],
+      "price": "12 850 ₽"
+    }
+  ],
+  "motoshinyRadioItem": [
+    {
+      "title": "ТИП МОТОЦИКЛА",
+      "radio": [
+        {
+          "id": "type1",
+          "name": "type",
+          "for": "type1",
+          "label": "Трек",
+          "checked": "checked"
+        },
+        {
+          "id": "type2",
+          "name": "type",
+          "for": "type2",
+          "label": "Спорт"
+        },
+        {
+          "id": "type3",
+          "name": "type",
+          "for": "type3",
+          "label": "Классика"
+        },
+        {
+          "id": "type4",
+          "name": "type",
+          "for": "type4",
+          "label": "Круизер"
+        },
+        {
+          "id": "type5",
+          "name": "type",
+          "for": "type5",
+          "label": "Кросс"
+        }
+      ]
+    },
+    {
+      "title": "Производитель",
+      "link": "Ещё",
+      "radio": [
+        {
+          "id": "manufacturer1",
+          "name": "manufacturer",
+          "for": "manufacturer1",
+          "label": "BMW",
+          "checked": "checked"
+        },
+        {
+          "id": "manufacturer2",
+          "name": "manufacturer",
+          "for": "manufacturer2",
+          "label": "Suzuki"
+        },
+        {
+          "id": "manufacturer3",
+          "name": "manufacturer",
+          "for": "manufacturer3",
+          "label": "Honda"
+        },
+        {
+          "id": "manufacturer4",
+          "name": "manufacturer",
+          "for": "manufacturer4",
+          "label": "Ducati"
+        },
+        {
+          "id": "manufacturer5",
+          "name": "manufacturer",
+          "for": "manufacturer5",
+          "label": "Kawasaki"
+        }
+      ]
+    }
+  ],
+  "catalogMotoshiny2": [
+    {
+      "image": "catalog-motoshiny-img-1",
+      "title": "3D Ultra Sport Front AVON",
+      "code": "Артикул : FFCKA005",
+      "infoTwo": ["120/70ZR17 58W"],
+      "price": "12 850 ₽"
+    },
+    {
+      "image": "catalog-motoshiny-img-1",
+      "title": "3D Ultra Sport Front AVON",
+      "code": "Артикул : FFCKA005",
+      "infoTwo": ["120/70ZR17 58W"],
+      "price": "12 850 ₽"
+    },
+    {
+      "image": "catalog-motoshiny-img-1",
+      "title": "3D Ultra Sport Front AVON",
+      "code": "Артикул : FFCKA005",
+      "infoTwo": ["120/70ZR17 58W"],
+      "price": "12 850 ₽"
+    },
+    {
+      "image": "catalog-motoshiny-img-1",
+      "title": "3D Ultra Sport Front AVON",
+      "code": "Артикул : FFCKA005",
+      "infoTwo": ["120/70ZR17 58W"],
+      "price": "12 850 ₽"
+    },
+    {
+      "image": "catalog-motoshiny-img-1",
+      "title": "3D Ultra Sport Front AVON",
+      "code": "Артикул : FFCKA005",
+      "infoTwo": ["120/70ZR17 58W"],
+      "price": "12 850 ₽"
+    },
+    {
+      "image": "catalog-motoshiny-img-1",
+      "title": "3D Ultra Sport Front AVON",
+      "code": "Артикул : FFCKA005",
+      "infoTwo": ["120/70ZR17 58W"],
+      "price": "12 850 ₽"
+    },
+    {
+      "image": "catalog-motoshiny-img-1",
+      "title": "3D Ultra Sport Front AVON",
+      "code": "Артикул : FFCKA005",
+      "infoTwo": ["120/70ZR17 58W"],
+      "price": "12 850 ₽"
+    },
+    {
+      "image": "catalog-motoshiny-img-1",
+      "title": "3D Ultra Sport Front AVON",
+      "code": "Артикул : FFCKA005",
+      "infoTwo": ["120/70ZR17 58W"],
+      "price": "12 850 ₽"
+    }
+  ],
+  "catalogMotoequipment1": [
+    {
+      "image": "catalog-motoequipment-jackets-img-1",
+      "title": "Мотокуртка DAINESE AVRO D2  TEX LADY JACKET",
+      "code": "Артикул : FFCKA005",
+      "check": [
+        {
+          "class": "black"
+        },
+        {
+          "class": "white"
+        },
+        {
+          "class": "red"
+        }
+      ],
+      "price": "12 850 ₽"
+    },
+    {
+      "image": "catalog-motoequipment-jackets-img-1",
+      "title": "Мотокуртка DAINESE AVRO D2  TEX LADY JACKET",
+      "code": "Артикул : FFCKA005",
+      "check": [
+        {
+          "class": "black"
+        },
+        {
+          "class": "white"
+        },
+        {
+          "class": "red"
+        }
+      ],
+      "price": "12 850 ₽"
+    },
+    {
+      "image": "catalog-motoequipment-jackets-img-1",
+      "title": "Мотокуртка DAINESE AVRO D2  TEX LADY JACKET",
+      "code": "Артикул : FFCKA005",
+      "check": [
+        {
+          "class": "black"
+        },
+        {
+          "class": "white"
+        },
+        {
+          "class": "red"
+        }
+      ],
+      "price": "12 850 ₽"
+    },
+    {
+      "image": "catalog-motoequipment-jackets-img-1",
+      "title": "Мотокуртка DAINESE AVRO D2  TEX LADY JACKET",
+      "code": "Артикул : FFCKA005",
+      "check": [
+        {
+          "class": "black"
+        },
+        {
+          "class": "white"
+        },
+        {
+          "class": "red"
+        }
+      ],
+      "price": "12 850 ₽"
+    },
+    {
+      "image": "catalog-motoequipment-jackets-img-1",
+      "title": "Мотокуртка DAINESE AVRO D2  TEX LADY JACKET",
+      "code": "Артикул : FFCKA005",
+      "check": [
+        {
+          "class": "black"
+        },
+        {
+          "class": "white"
+        },
+        {
+          "class": "red"
+        }
+      ],
+      "price": "12 850 ₽"
+    },
+    {
+      "image": "catalog-motoequipment-jackets-img-1",
+      "title": "Мотокуртка DAINESE AVRO D2  TEX LADY JACKET",
+      "code": "Артикул : FFCKA005",
+      "check": [
+        {
+          "class": "black"
+        },
+        {
+          "class": "white"
+        },
+        {
+          "class": "red"
+        }
+      ],
+      "price": "12 850 ₽"
+    },
+    {
+      "image": "catalog-motoequipment-jackets-img-1",
+      "title": "Мотокуртка DAINESE AVRO D2  TEX LADY JACKET",
+      "code": "Артикул : FFCKA005",
+      "check": [
+        {
+          "class": "black"
+        },
+        {
+          "class": "white"
+        },
+        {
+          "class": "red"
+        }
+      ],
+      "price": "12 850 ₽"
+    },
+    {
+      "image": "catalog-motoequipment-jackets-img-1",
+      "title": "Мотокуртка DAINESE AVRO D2  TEX LADY JACKET",
+      "code": "Артикул : FFCKA005",
+      "check": [
+        {
+          "class": "black"
+        },
+        {
+          "class": "white"
+        },
+        {
+          "class": "red"
+        }
+      ],
+      "price": "12 850 ₽"
+    },
+    {
+      "image": "catalog-motoequipment-jackets-img-1",
+      "title": "Мотокуртка DAINESE AVRO D2  TEX LADY JACKET",
+      "code": "Артикул : FFCKA005",
+      "check": [
+        {
+          "class": "black"
+        },
+        {
+          "class": "white"
+        },
+        {
+          "class": "red"
+        }
+      ],
+      "price": "12 850 ₽"
+    }
+  ],
+  "motoequipmentRadioItem": [
+    {
+      "title": "Производитель",
+      "radio": [
+        {
+          "id": "manufacturer1",
+          "name": "manufacturer",
+          "for": "manufacturer1",
+          "label": "DAINESE",
+          "checked": "checked"
+        },
+        {
+          "id": "manufacturer2",
+          "name": "manufacturer",
+          "for": "manufacturer2",
+          "label": "HELD"
+        },
+        {
+          "id": "manufacturer3",
+          "name": "manufacturer",
+          "for": "manufacturer3",
+          "label": "IXON"
+        },
+        {
+          "id": "manufacturer4",
+          "name": "manufacturer",
+          "for": "manufacturer4",
+          "label": "Жилеты HARD STEEL"
+        }
+      ]
+    },
+    {
+      "title": "тип",
+      "radio": [
+        {
+          "id": "type1",
+          "name": "type",
+          "for": "type1",
+          "label": "Жилет"
+        },
+        {
+          "id": "type2",
+          "name": "type",
+          "for": "type2",
+          "label": "Жилеты AIRBAG"
+        },
+        {
+          "id": "type3",
+          "name": "type",
+          "for": "type3",
+          "label": "Спорт"
+        },
+        {
+          "id": "type4",
+          "name": "type",
+          "for": "type4",
+          "label": "Туринг"
+        },
+        {
+          "id": "type5",
+          "name": "type",
+          "for": "type5",
+          "label": "Чоппер"
+        }
+      ]
+    },
+    {
+      "title": "материал",
+      "radio": [
+        {
+          "id": "material1",
+          "name": "material",
+          "for": "material1",
+          "label": "Кожа"
+        },
+        {
+          "id": "material2",
+          "name": "material",
+          "for": "material2",
+          "label": "Комбинированный"
+        },
+        {
+          "id": "material3",
+          "name": "material",
+          "for": "material3",
+          "label": "Текстиль"
+        }
+      ]
+    },
+    {
+      "title": "Пол",
+      "radio": [
+        {
+          "id": "gender1",
+          "name": "gender",
+          "for": "gender1",
+          "label": "Унисекс"
+        },
+        {
+          "id": "gender2",
+          "name": "gender",
+          "for": "gender2",
+          "label": "Мужской"
+        },
+        {
+          "id": "gender3",
+          "name": "gender",
+          "for": "gender3",
+          "label": "Женский"
+        },
+        {
+          "id": "gender4",
+          "name": "gender",
+          "for": "gender4",
+          "label": "Десткий"
+        }
+      ]
+    }
+  ],
+  "listPartsAcc1": [
+    {
+      "title": "Рулевое управление",
+      "image": "list-parts-accessories-img-1"
+    },
+    {
+      "title": "Сальники и пыльники",
+      "image": "list-parts-accessories-img-2"
+    },
+    {
+      "title": "Масла и фильтра",
+      "image": "list-parts-accessories-img-3"
+    },
+    {
+      "title": "Двигатель",
+      "image": "list-parts-accessories-img-4"
+    },
+    {
+      "title": "Трансмиссия",
+      "image": "list-parts-accessories-img-5"
+    },
+    {
+      "title": "Тормозные колодки",
+      "image": "list-parts-accessories-img-6"
+    }
+  ],
+  "listPartsAcc2": [
+    {
+      "title": "Аккумуляторы",
+      "image": "list-parts-accessories-img-7"
+    },
+    {
+      "title": "свечи",
+      "image": "list-parts-accessories-img-8"
+    },
+    {
+      "title": "пластик и оптика",
+      "image": "list-parts-accessories-img-9"
+    },
+    {
+      "title": "электрика",
+      "image": "list-parts-accessories-img-10"
+    },
+    {
+      "title": "аксессуары",
+      "image": "list-parts-accessories-img-11"
+    },
+    {
+      "title": "другие мото запчасти",
+      "image": "list-parts-accessories-img-12"
+    }
+  ],
+  "listMotoshiny": [
+    {
+      "title": "Шины",
+      "image": "list-motoshiny-img-1"
+    },
+    {
+      "title": "Камеры",
+      "image": "list-motoshiny-img-2"
+    },
+    {
+      "title": "Комплектующие",
+      "image": "list-motoshiny-img-3"
+    }
+  ],
+  "listMotodress1": [
+    {
+      "title": "Мотошлемы",
+      "image": "list-motodress-img-1"
+    },
+    {
+      "title": "Мотозащита",
+      "image": "list-motodress-img-2"
+    },
+    {
+      "title": "Куртки и дождевики",
+      "image": "list-motodress-img-3"
+    },
+    {
+      "title": "Мотоштаны",
+      "image": "list-motodress-img-4"
+    },
+    {
+      "title": "Джерси",
+      "image": "list-motodress-img-5"
+    },
+    {
+      "title": "Ботинки",
+      "image": "list-motodress-img-6"
+    }
+  ],
+  "listMotodress2": [
+    {
+      "title": "Перчатки",
+      "image": "list-motodress-img-7"
+    },
+    {
+      "title": "Очки и маски",
+      "image": "list-motodress-img-8"
+    },
+    {
+      "title": "Одежда",
+      "image": "list-motodress-img-9"
+    },
+    {
+      "title": "другое",
+      "image": "list-motodress-img-10"
+    }
+  ],
+  "cardMotoTable": [
+    {
+      "title": "Рабочий объем",
+      "text": "1 197 см3"
+    },
+    {
+      "title": "Кол-во цилиндров / расположение",
+      "text": "2 / V-образный"
+    },
+    {
+      "title": "Количество тактов",
+      "text": "Жидкостное"
+    },
+    {
+      "title": "Клапанов на цилиндр",
+      "text": "4"
+    },
+    {
+      "title": "Диаметр цилиндра × Ход поршня",
+      "text": "4"
+    },
+    {
+      "title": "Номинальная мощность",
+      "text": "106 мм × 67 мм"
+    },
+    {
+      "title": "Макс. крутящий момент",
+      "text": "125 л.с. (91 кВт) при 8 250 об/мин"
+    },
+    {
+      "title": "Степень сжатия",
+      "text": "125 Нм при 6 800 об/мин"
+    },
+    {
+      "title": "Тип",
+      "text": "-"
+    },
+    {
+      "title": "Система запуска",
+      "text": "Инжектор"
+    },
+    {
+      "title": "Трансмиссия",
+      "text": "Электростартер"
+    },
+    {
+      "title": "Сцепление",
+      "text": "6-ступенчатая"
+    },
+    {
+      "title": "Генератор",
+      "text": "Многодисковое мокрое сцепление"
+    },
+    {
+      "title": "",
+      "text": "-"
+    }
+  ]
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

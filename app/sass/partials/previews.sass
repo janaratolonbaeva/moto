@@ -1,0 +1,155 @@
+.previews
+  padding: 35px 0
+  overflow: hidden
+  &_right
+    +container
+      float: right
+  &_card
+    border-radius: 10px
+    position: relative
+    text-align: center
+    +xs
+      text-align: left
+    p 
+      font-size: 18px
+      font-weight: 600
+      span 
+        color: $danger
+    img 
+      margin: 10px auto auto
+      display: block
+      +xs
+        position: absolute
+        margin: 0
+    h3 
+      font-weight: 700
+      font-size: 28px
+      margin-bottom: 5px
+      +xs 
+        font-size: 30px
+    &--height
+      max-width: 750px
+      width: 100%
+      padding: 20px 10px
+      margin: auto auto 30px
+      background-size: cover
+      background: url('../img/previews-card-height-bg.jpg') no-repeat
+      +xs
+        padding: 40px 35px
+        height: 300px
+      +container 
+        width: 360px
+        height: 470px
+        margin: 0
+        background-size: contain
+      h3 
+        color: $danger
+        +tablet
+          font-size: 36px
+          line-height: 36px
+      p 
+        margin-top: 50px
+        +container
+          margin-top: 80px
+      .subtitle
+        font-size: 24px
+        line-height: 36px
+      img 
+        right: 10px
+        bottom: 5px
+        +container
+          right: -20px
+          bottom: 20px
+    &--width
+      max-width: 750px
+      width: 100%
+      padding: 20px 10px
+      margin: auto auto 30px
+      background-size: cover
+      background: url('../img/previews-card-width-bg.jpg') no-repeat
+      +xs 
+        padding: 40px 35px
+      +mobile
+        height: 220px
+      +container 
+        background-size: contain
+        margin: 0 0 30px
+      h3 
+        +tablet
+          font-size: 36px
+          line-height: 36px
+      .subtitle
+        font-size: 24px
+        line-height: 36px
+      img 
+        position: static
+        margin: 10px auto auto
+        display: block
+        width: 80%
+        height: auto
+        +mini 
+          width: auto
+        +mobile
+          position: absolute
+          right: 30px
+          top: 12px
+          margin: 0
+    &--sm 
+      padding: 20px 10px
+      margin: auto
+      background-size: cover
+      +xs 
+        padding: 30px
+      +mobile
+        height: 220px
+      +tablet
+        max-width: 360px
+        background-size: contain
+      +desktop 
+        width: 360px
+      +container 
+        margin: initial
+      .subtitle
+        font-size: 20px
+    &--sm1 
+      background-image: url('../img/previews-card-sm-bg.jpg')
+      background-repeat: no-repeat
+      +desktop 
+        margin-right: 60px
+      img 
+        right: 20px
+        bottom: 0
+        +tablet
+          right: 5px
+          bottom: -25px
+      p 
+        margin-top: 50px
+    &--sm2
+      background-image: url('../img/previews-card-sm2-bg.jpg')
+      background-repeat: no-repeat
+      img
+        right: 30px
+        top: 20px
+      p 
+        margin-top: 40px
+  &_left
+    +container
+      float: left
+  &_col
+    margin-bottom: 30px
+    +tablet
+      margin-bottom: 0
+      float: left
+      width: 50%
+      padding: 0 15px
+    +desktop
+      padding: 0
+
+
+
+
+
+
+
+
+

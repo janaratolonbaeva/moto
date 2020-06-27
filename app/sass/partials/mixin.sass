@@ -1,0 +1,82 @@
+$transition: all 0.35s ease
+$sourceSansPro: 'Source Sans Pro', sans-serif
+$colorFontMain: #292929
+$danger: #e1323d
+$borderColorDefult: rgb(221, 221, 221)
+
+=placeholder
+  &::-webkit-input-placeholder
+    @content
+  &:-moz-placeholder
+    @content
+  &::-moz-placeholder
+    @content
+  &:-ms-input-placeholder
+    @content
+
+
+=mini
+  @media screen and (min-width: 400px)
+    @content
+=xs
+  @media screen and (min-width: 500px)
+    @content
+=minWidth550
+  @media screen and (min-width: 550px)
+    @content
+=mobile
+  @media screen and (min-width: 650px)
+    @content
+=tablet
+  @media screen and (min-width: 768px)
+    @content
+=minWidth850
+  @media screen and (min-width: 850px)
+    @content
+=desktop
+  @media screen and (min-width: 992px)
+    @content
+=minWidth1100
+  @media screen and (min-width: 1100px)
+    @content
+=container
+  @media screen and (min-width: 1185px)
+    @content
+=minWidth1400
+  @media screen and (min-width: 1400px)
+    @content
+
+=borderRadius($radius, $width, $style, $color)
+  border-radius: $radius
+  border-width: $width
+  border-style: $style
+  border-color: $color
+
+=circle($width, $height, $radius, $color)
+  width: $width
+  height: $height
+  border-radius: $radius
+  background: $color
+  display: block
+
+=positionAbsBeforeAfterElements($top, $bottom, $left, $right, $width, $height)
+  content: ''
+  position: absolute
+  top: $top
+  bottom: $bottom
+  left: $left
+  right: $right
+  width: $width
+  height: $height
+
+%cardHover
+  border-color: $danger
+  box-shadow: 0px 5px 9.5px 0.5px rgba(0, 1, 5, 0.05)
+
+
+
+
+
+
+
+

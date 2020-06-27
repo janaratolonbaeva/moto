@@ -1,0 +1,68 @@
+.popular
+  overflow: hidden
+  .title
+    margin-bottom: 30px
+    text-align: center
+    +mobile
+      text-align: left
+    +container
+      margin-bottom: 40px
+    +container
+      float: left
+  &_menu
+    margin-bottom: 30px
+    +container
+      float: right
+      padding-top: 15px
+    li 
+      text-align: center
+      margin-bottom: 10px
+      +xs
+        float: left
+        width: 50%
+      +mobile
+        float: none
+        width: auto
+        margin-bottom: 0
+        text-align: left
+        display: inline-block
+        opacity: 0.6
+      &:hover
+        opacity: 1
+        text-decoration: underline
+      &:nth-child(3)
+        clear: left
+        +mobile
+          clear: none
+      &:not(:last-child)
+        +mobile
+          margin-right: 25px
+      svg
+        vertical-align: middle
+        margin-right: 10px
+  &_tab 
+    .col 
+      margin-bottom: 25px
+      +mobile
+        float: left
+        width: 50%
+      +desktop
+        width: 33.3%
+      +container
+        width: 25%
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

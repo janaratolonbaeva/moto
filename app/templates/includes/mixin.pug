@@ -1,0 +1,129 @@
+mixin card1(content)
+  each item in content
+    .col
+      a(href="#").card.card-1
+        if (item.stock)
+          span.label= item.stock 
+        .card_img
+          img(src=`uploads/${item.image}.jpg`, alt="Product image")
+        .card_content
+          h5= item.title
+          p.code= item.code
+          if (item.realPrice)
+            span.real-price= item.realPrice
+          if (item.info)
+            .info.clearfix
+              - for (var i = 0; i < item.info.length; i++)
+                .info_item
+                  span= item.info[i]
+          if (item.check)
+            - for (var i = 0; i < item.check.length; i++)
+              .filter_check-circle
+                input(type="checkbox")
+                label(class= item.check[i].class)
+          .card_content--bt.clearfix
+            span.price= item.price
+            span.buy Купить
+
+mixin card2(content1)
+  each item in content1
+    .col
+      a(href="#").card.card-2.clearfix
+        if (item.stock)
+          span.label= item.stock
+        .card_img
+          img(src=`uploads/${item.image}.jpg`, alt="Product image")
+        .card_content
+          h5= item.title
+          p.code= item.code
+          if (item.info)
+            .info.clearfix
+              - for (var i = 0; i < item.info.length; i++)
+                .info_item
+                  span= item.info[i]
+          if (item.infoTwo)
+            .info2.clearfix
+              - for (var i = 0; i < item.infoTwo.length; i++)
+                .info2_item
+                  span= item.infoTwo[i]
+          if (item.check)
+            - for (var i = 0; i < item.check.length; i++)
+              .filter_check-circle
+                input(type="checkbox")
+                label(class= item.check[i].class)
+          if (item.realPrice)
+            span.real-price= item.realPrice
+          .card_content--bt.clearfix
+            span.price= item.price
+            span.buy Купить
+
+mixin card3(content3)
+  each item in content3
+    .col
+      a(href="#").card.card-3
+        if (item.stock)
+          span.label= item.stock 
+        .card_img
+          img(src=`uploads/${item.image}.jpg`, alt="Product image")
+        .card_content
+          h5= item.title
+          p.code= item.code
+          .info.clearfix
+            - for (var i = 0; i < item.info.length; i++)
+              .info_item
+                span= item.info[i]
+          .card_content--bt
+            if (item.realPrice)
+              span.real-price= item.realPrice
+            span.price= item.price
+            span.buy Купить
+      
+mixin radio(radioContent)
+  each item in radioContent
+    .filter_box
+      h6= item.title
+      - if (item.radio.length)
+        - for (var i = 0; i < item.radio.length; i++)
+          .filter_radio
+            - if (item.radio[i].checked)
+              input(type="radio", id= item.radio[i].id name= item.radio[i].name, checked= item.radio[i].checked)
+              label(for= item.radio[i].for)= item.radio[i].label
+            - else
+              input(type="radio", id= item.radio[i].id name= item.radio[i].name)
+              label(for= item.radio[i].for)= item.radio[i].label
+        - if (item.link)
+          a(href="#").link= item.link
+
+mixin box1(content4)
+  each item in content4
+    .col
+      a(href="#").box.box-1
+        h5= item.title
+        .box_img
+          img(src=`uploads/${item.image}.png`, alt="Product Image")
+        span.btn.btn--blackFont Смотреть каталог
+
+mixin box2(content5)
+  each item in content5
+    .col
+      a(href="#").box.box-2
+        h5= item.title
+        .box_img
+          img(src=`uploads/${item.image}.png`, alt="Product Image")
+        span.btn.btn--blackFont Смотреть каталог
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,164 @@
+.catalog
+  padding-bottom: 30px
+  &-1 
+    .col
+      margin-bottom: 25px
+      +mobile
+        float: left
+        width: 50%
+      +minWidth850
+        width: 33.3%
+        padding: 0 10px
+      +desktop
+        width: 50%
+        padding: 0
+      +container
+        width: 33.3%
+  &-2 
+    .col 
+      margin-bottom: 20px
+  .title
+    margin-bottom: 36px
+  .filter
+    margin-bottom: 30px
+    +desktop
+      margin-bottom: 0
+      float: left
+      margin-right: 15px
+  &_block
+    +desktop
+      padding-left: 15px
+      width: calc(100% - 280px)
+      float: left
+  &_text
+    padding-top: 30px
+  &_subtitle
+    margin-bottom: 20px
+    p
+      font-weight: 600
+      color: rgba(0, 0, 0, 0.6)
+      font-size: 18px
+      text-transform: uppercase
+  .choice
+    line-height: 40px
+    border-radius: 50px
+    background: #f6f6f6
+    line-height: 40px
+    padding: 0 50px 0 20px
+    position: relative
+    display: inline-block
+    margin: 0 10px 10px 0
+    color: rgba(41, 41, 41, 0.8)
+    &::after
+      +positionAbsBeforeAfterElements(10px, auto, auto, 15px, 20px, 20px)
+      background: url('../img/error.svg')
+      cursor: pointer
+    &_block
+      padding-bottom: 10px
+      border-bottom: 1px solid rgb(246, 246, 246)
+      .reset
+        background: none
+        border: none
+        color: $danger
+        line-height: 40px
+        font-family: $sourceSansPro
+        font-size: 14px
+        font-weight: 600
+  &_header
+    padding: 15px 0 20px
+    text-align: center
+    +mobile
+      text-align: left
+    &-right
+      margin-bottom: 20px
+      +mobile
+        margin-bottom: 0
+        float: right
+      .icon-list
+        display: inline-block
+        margin-left: 15px
+        &:hover 
+          svg 
+            fill: $danger
+        svg 
+          vertical-align: middle
+          transition: $transition
+      .jq-selectbox
+        outline: none
+        &__select
+          +borderRadius(50px, 2px, dashed, #d1d1d1)
+          font: 14px/36px $sourceSansPro
+          font-weight: 400
+          background: none
+          box-shadow: none
+          height: 40px
+          padding: 0 40px 0 15px
+          min-width: 140px
+          color: $colorFontMain
+          &-text
+            overflow: auto
+            white-space: normal
+            text-overflow: inherit
+        &__trigger
+          border: none
+          &-arrow
+            border: none
+            border-radius: 50%
+            width: 22px
+            height: 22px
+            background: rgb(246, 246, 246)
+            top: 50%
+            left: 50%
+            transform: translate(-50%, -50%)
+            &::before
+              +positionAbsBeforeAfterElements(5px, auto, 5px, auto, 15px, 15px)
+              background: url('../img/arrow-down-red.svg') no-repeat
+              transition: $transition
+        &__dropdown
+          +borderRadius(10px, 2px, dashed, $danger)
+          overflow: hidden
+          li
+            &.selected
+              background: #f6f6f6
+              color: $colorFontMain
+            &:hover
+              background: $danger
+        &.focused
+          .jq-selectbox__select
+            border: 2px dashed $danger
+          .jq-selectbox__trigger-arrow::before
+            transform: rotateX(180deg)
+            top: 2px
+    &-left
+      +mobile
+        float: left
+        padding-top: 10px
+      p 
+        font-size: 18px
+        font-weight: 600
+        span
+          font-weight: 700
+          color: $danger
+  &_select
+    margin-right: 10px
+  &_cards
+    overflow: hidden
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

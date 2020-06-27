@@ -1,0 +1,22 @@
+include mixin
+
+section.popular
+  .container
+    .popular_tabs
+      .clearfix
+        h2.title Популярные 
+          span товары
+        ul.popular_menu.clearfix
+          each item in popularMenu
+            li
+              a(href= `#${item.href}`)
+                svg(height= item.height, width= item.width)
+                  use(xlink:href=`#icon-${item.id}`)
+                span= item.text
+      .popular_tab.clearfix
+        +card1(popularCard)
+
+
+
+
+

@@ -1,0 +1,78 @@
+footer.footer
+  .footer_top
+    .container
+      ul.footer_top-header.clearfix
+        li
+          a(href="index.html").logo
+            svg(height="75", width="200")
+              use(xlink:href="#logo")
+        li
+          .phone-block
+            svg(width="45", height="56")
+              use(xlink:href="#icon-call")
+            a.phone(href="tel: 88007770751") 8 (800) 777-07-51
+            p Ежедневно с 7:00‒23:00
+        li
+          .location
+            svg(width="40", height="56")
+              use(xlink:href="#icon-location")
+            span г. Севастополь,
+              br
+              | ул. Маршала Жукова, 35
+        li 
+          .mail
+            svg(width="45", height="48")
+              use(xlink:href="#icon-mail")
+            a(href="mailto:info@moto.ru") info@moto.ru
+      .clearfix
+        .footer_top-col
+          h6
+            a(href="card-moto.html") Название компании
+          ul
+            each item in footerTopMenu1
+              li
+                a(href="#")= item
+        .footer_top-col
+          h6
+            a(href="catalog-moto-1.html") Мототехника
+          h6
+            a(href="motoshiny.html") Мотошины
+        .footer_top-col
+          h6
+            a(href="motodress.html") Мотоэкипировка
+          ul
+            each item in footerTopMenu2
+              if (item.class)
+                li
+                  a(href= item.href, class= item.class)= item.link
+              else
+                li
+                  a(href="#")= item.link
+        .footer_top-col
+          h6
+            a(href="parts-accessories.html") Запчасти и аксессуары
+          ul
+            each item in footerTopMenu3
+              if (item.class)
+                li
+                  a(href= item.href, class= item.class)= item.link
+              else
+                li
+                  a(href= item.href)= item.link
+  .footer_bt
+    .container.clearfix
+      .footer_bt-col
+        p © 2019 Интернет магазин «Название»
+        p
+          a(href="#", style="text-decoration: underline;") Политика конфиденциальности
+      .footer_bt-col
+        a(href="#")
+          img(src="uploads/ic-visa.png", alt="Icon Visa")
+        a(href="#")
+          img(src="uploads/ic-master-card.png", alt="Icon Master Card")
+        a(href="#")
+          img(src="uploads/ic-mir.png", alt="Icon Mir")
+      .footer_bt-col
+        p Сделано в 
+          a(href="https://promoaccent.ru/", target="_blank").promoaccent Promoaccent
+

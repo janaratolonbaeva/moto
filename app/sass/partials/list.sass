@@ -1,0 +1,31 @@
+.list
+  &_text
+    padding-bottom: 30px
+  &_wrap
+    .title
+      margin-bottom: 35px
+  .col 
+    margin-bottom: 30px
+    +mini
+      padding: 0 10px
+    +container 
+      padding: 0
+  &-1 
+    .col
+      +tablet
+        float: left
+        width: 50%
+      +desktop
+        width: 33.3%
+  &-2 
+    .col
+      +mobile
+        float: left
+        width: 50%
+      +minWidth850
+        width: 33.3%
+      +container
+        width: 25%
+    
+
+

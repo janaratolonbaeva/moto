@@ -1,0 +1,119 @@
+doctype html
+html(lang="ru")
+  head
+    include includes/head
+    title= title
+  body
+    // SVG ICONS
+    svg.hidden
+      defs
+        include includes/svg
+        include includes/svg-card
+    // svg icons end
+    // MOBILE MENU
+    include includes/sidenav
+    // mobile menu end
+    // HEADER
+    include includes/header
+    // header end
+    // CARD
+    .container
+      ul.breadcrumbs
+        li: a(href="index.html") Главная
+        li: a(href="motodress.html") Мотоэкипировка
+        li: a(href="catalog-motoequipment-jackets_vests-1.html") Куртки и жилеты
+        li Мотокуртка DAINESE AVRO D2 TEX LADY JACKET
+      .product
+        .product_row.clearfix
+          .product_img.clearfix
+            .product_slider-for
+              .div
+                img(src="uploads/product-motodress-img.jpg", style="max-width: 410px;" alt="")
+              .div
+                img(src="uploads/product-motodress-img.jpg", style="max-width: 410px;" alt="")
+              .div
+                img(src="uploads/product-motodress-img.jpg", style="max-width: 410px;" alt="")
+              .div
+                img(src="uploads/product-motodress-img.jpg", style="max-width: 410px;" alt="")
+            .product_slider-nav
+              .slide-nav
+                img(src="uploads/product-motodress-img.jpg", style="max-width: 410px;" alt="")
+              .slide-nav
+                img(src="uploads/product-motodress-img.jpg", style="max-width: 410px;" alt="")
+              .slide-nav
+                img(src="uploads/product-motodress-img.jpg", style="max-width: 410px;" alt="")
+              .slide-nav
+                img(src="uploads/product-motodress-img.jpg", style="max-width: 410px;" alt="")
+          .product_content
+            h4 MegaParts выхлопная система Hexagon 250-600 СС
+            p.code Артикул : FFCKA005
+            .clearfix
+              .filter_card(style="float: left; margin-right: 65px;")
+                h6 Доступные цвета:
+                .filter_check-circle
+                  input(type="radio", id="color1", name="color", checked)
+                  label.black(for="color1")
+                .filter_check-circle
+                  input(type="radio", id="color2", name="color")
+                  label.white(for="color2")
+                .filter_check-circle
+                  input(type="radio", id="color3", name="color")
+                  label.red(for="color3")
+              .filter_card(style="float: left;")
+                h6 Доступные цвета:
+                .filter_check-size
+                  input(type="radio", id="size1", name="size", checked)
+                  label(for="size1") XL
+                .filter_check-size
+                  input(type="radio", id="size2", name="size")
+                  label(for="size2") S
+                .filter_check-size
+                  input(type="radio", id="size3", name="size")
+                  label(for="size3") M
+            .character
+              .clearfix
+                span.price 12 600 ₽
+                a(href="#").buy Купить
+            .product_form
+              p Наличие, размер и цвет уточняйте у менеджера
+              .product_form-block
+                form
+                  h6 Есть вопросы?
+                  .clearfix
+                    input.input(type="tel", placeholder="Номер телефона")
+                    input(type="submit" value="Получить консультацию").btn.btn--white
+        .product_row.clearfix
+          .product_description
+            h5 Характеристики
+            p Сложно сказать, почему действия представителей оппозиции, вне зависимости от их уровня, должны быть разоблачены. А еще представители современных социальных резервов объединены в целые кластеры себе подобных! Сложно сказать, почему действия
+          .product_rating
+            h5 рейтинг
+            .rating.clearfix
+              .rating_num.clearfix
+                i
+                span.num 8,3 
+                  small из 
+                  span.num--sm 10
+                i
+              .rating_info
+                p 10 оценок
+                a(href="#") Оценить
+      include includes/feautures-pages
+    include includes/notice-moto
+    // Card end
+    // FOOTER
+    include includes/footer
+    // footer end
+
+    include includes/scripts
+
+
+
+
+
+
+
+
+
+
+

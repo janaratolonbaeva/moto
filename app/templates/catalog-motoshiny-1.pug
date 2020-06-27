@@ -1,0 +1,47 @@
+doctype html
+html(lang="ru")
+  head
+    include includes/head
+    title= title
+  body
+    // SVG ICONS
+    svg.hidden
+      defs
+        include includes/svg
+        include includes/svg-catalog
+    // svg icons end
+    // MOBILE MENU
+    include includes/sidenav
+    // mobile menu end
+    // HEADER
+    include includes/header
+    // header end
+    // CATALOG
+    .container
+      ul.breadcrumbs
+        li: a(href="index.html") Главная
+        li Мотошины
+      .catalog.catalog-1
+        h2.title Каталог мотошин в Севастополе
+        .clearfix
+          include includes/filter-motoshiny
+          include includes/catalog-motoshiny-1
+        .catalog_text
+          p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus impedit doloremque assumenda, hic, corporis deleniti ipsa libero alias inventore qui quis, maiores esse. Saepe libero laborum tempora illum aut molestiae esse autem, dolorem officiis dolorum. Nulla ipsa provident ex quam necessitatibus perspiciatis vero laudantium. Maxime, perferendis. Officiis veniam maxime necessitatibus.
+    // catalog end
+    // FOOTER
+    include includes/footer
+    // footer end
+
+    include includes/scripts
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,56 @@
+header.header
+  .header_top
+    .container.clearfix
+      a(href="index.html").logo
+        svg(height="75", width="200")
+          use(xlink:href="#logo")
+      a(class="toggle" href="javascript:;" id="sidenav-toggle")
+        svg(height="40" width="40")
+          use(xlink:href="#icon-burger")
+      ul.menu
+        each item in menuItem
+          li
+            a(href="#")= item
+      .phone-block
+        a.phone(href="tel: 88007770751") 8 (800) 777-07-51
+        p Ежедневно с 7:00‒23:00
+      .search
+        svg(width="21", height="21")
+          use(xlink:href="#icon-search")
+      a(href="#").basket
+        svg(width="45", height="55")
+          use(xlink:href="#icon-basket")
+        span 2
+      a.enter(href="#")
+        span Вход/регистрация
+        svg(width="18", height="16")
+          use(xlink:href="#icon-user")
+  .header_bt
+    .container
+      .nav_wrap.clearfix
+        nav.nav
+          ul
+            each item in navItem
+              li.nav_item
+                a(href= item.href).nav_link
+                  svg(height= item.height, width= item.width)
+                    use(xlink:href=`#icon-${item.id}`)
+                  span= item.text
+                - if (item.dropdown)
+                    svg.icon-down(width="15", height="15")
+                      use(xlink:href="#icon-arrow-down")
+                    .dropdown_wrap
+                      ul.dropdown
+                        - if (item.dropdown.length)
+                          - for (var i = 0; i < item.dropdown.length; i++)
+                            - if (item.dropdown[i].class)
+                              li
+                                a(href= item.dropdown[i].href, class= item.dropdown[i].class)= item.dropdown[i].text
+                            - else
+                              li
+                                a(href= item.dropdown[i].href)= item.dropdown[i].text
+        a(href="#").basket
+          svg(width="45", height="55")
+            use(xlink:href="#icon-basket")
+          span 2
+

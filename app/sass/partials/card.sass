@@ -1,0 +1,242 @@
+.card
+  line-height: 20px
+  position: relative
+  display: block
+  +borderRadius(10px, 2px, dashed, rgb(246, 246, 246))
+  transition: $transition
+  margin: auto
+  &:hover
+    @extend %cardHover
+    h5 
+      color: $danger
+    .buy
+      color: #fff
+      background-position-x: -120px
+  &-1 
+    max-width: 350px
+    +mobile
+      max-width: 265px
+      height: 370px
+    .card_img
+      width: 100%
+      margin-bottom: 10px
+      height: 190px
+      img 
+        position: absolute
+        top: 50%
+        left: 50%
+        transform: translate(-50%, -50%)
+    .card_content
+      padding: 0 15px 25px 25px
+      h5 
+        margin-bottom: 10px
+      .code
+        margin-bottom: 10px
+      .info 
+        &_item
+          display: inline-block
+          padding: 10px 2px
+          text-align: center
+          border-radius: 4px
+          background: rgb(250, 250, 250)
+          min-width: 69px
+          margin-bottom: 10px
+          &:not(:last-child)
+            margin-right: 5px
+          span 
+            font-size: 16px
+            line-height: 20px
+            color: rgba(41, 41, 41, 0.6)
+    .card_content--bt
+      +mobile
+        position: absolute
+        width: 100%
+        bottom: 20px
+        left: 0
+        padding: 0 5px 0 25px
+      .price  
+        display: block
+        margin-bottom: 10px
+        +mini
+          display: inline
+  &-2 
+    padding: 10px 30px
+    +mobile
+      display: -webkit-flex
+      display: -moz-flex
+      display: -ms-flex
+      display: -o-flex
+      display: flex
+    .card_img
+      text-align: center
+      margin-bottom: 10px
+      +mobile
+        display: -webkit-flex
+        display: -moz-flex
+        display: -ms-flex
+        display: -o-flex
+        display: flex
+        align-items: center
+        justify-content: center
+      +mobile
+        margin: 0
+        width: 45%
+        float: left
+      img
+        height: auto
+        width: 70%
+        +mini
+          margin: 0
+          width: auto
+    .card_content
+      padding: 10px 0
+      text-align: center
+      +mobile
+        text-align: left
+        width: 55%
+        float: left
+      h5 
+        font-size: 20px
+        margin: auto auto 15px
+        max-width: 350px
+        +mobile
+          font-size: 24px
+          margin: 0 0 25px
+      .code
+        margin-bottom: 15px
+      .info 
+        &_item
+          display: inline-block
+          margin-bottom: 10px
+          padding-right: 10px
+          &:not(:first-child)
+            padding-left: 10px
+            border-left: 1px dashed #dddddd
+          span 
+            font-size: 16px
+            line-height: 20px
+            color: rgba(41, 41, 41, 0.6)
+      .info2
+        &_item
+          display: inline-block
+          padding: 10px 5px
+          text-align: center
+          border-radius: 4px
+          background: rgb(250, 250, 250)
+          min-width: 69px
+          margin-bottom: 10px
+          &:not(:last-child)
+            margin-right: 5px
+          span 
+            font-size: 16px
+            line-height: 20px
+            color: rgba(41, 41, 41, 0.6)
+    .card_content--bt
+      margin-top: 10px
+      .price  
+        display: block
+        margin-bottom: 10px
+        +mini
+          margin-right: 25px
+          display: inline
+  &-3
+    max-width: 350px
+    +mobile
+      max-width: 265px
+      height: 460px
+    .card_img
+      width: 100%
+      margin-bottom: 10px
+      height: 200px
+      img 
+        position: absolute
+        top: 50%
+        left: 50%
+        transform: translate(-50%, -50%)
+    .card_content
+      padding: 0 5px 25px 30px
+      h5 
+        margin-bottom: 5px
+        max-width: 170px
+      .code
+        margin-bottom: 20px
+      .info 
+        &_item
+          display: inline-block
+          padding: 10px 0
+          text-align: center
+          border-radius: 4px
+          background: rgb(250, 250, 250)
+          min-width: 69px
+          margin-bottom: 10px
+          &:not(:last-child)
+            margin-right: 5px
+          span 
+            font-size: 16px
+            line-height: 20px
+            color: rgba(41, 41, 41, 0.6)
+    .card_content--bt
+      text-align: center
+      +mobile
+        position: absolute
+        width: 100%
+        bottom: 10px
+        left: 0
+      .real-price
+        display: block
+        text-align: center
+        margin-bottom: 5px
+        font-size: 18px
+        line-height: 20px
+        font-weight: 600
+      .price
+        display: block
+        margin-bottom: 15px
+  &_img
+    position: relative
+  .label
+    position: absolute
+    top: 10px
+    left: 10px
+    width: 86px
+    line-height: 21px
+  &_content
+    h5 
+      font-weight: 600
+      transition: $transition
+    .code
+      color: rgba(41, 41, 41, 0.6)
+      font-size: 12px
+    .real-price
+      text-decoration: line-through
+      color: rgba(41, 41, 41, 0.6)
+    .price  
+      font-size: 30px
+      font-weight: 600
+    .buy 
+      font-weight: 600f
+      text-align: center
+      background-image: url('../img/buy-bg.png')
+      background-repeat: no-repeat
+      width: 120px
+      line-height: 36px
+      display: inline-block
+      padding-left: 15px
+      overflow: hidden
+      position: relative
+      background-position-x: 0
+      transition: color .15s ease
+  .filter_card
+    .filter_check-circle
+      .white::before
+        border: 2px solid rgb(246, 246, 246)    
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,35 @@
+include mixin
+
+.catalog_block
+  .catalog_subtitle
+    p Вы выбрали следующие параметры:
+  .choice_block
+    .choice
+      span спортивный
+    .choice
+      span цена от 67 000 ₽ до 456 000 ₽
+    .choice
+      span до 300 см3
+    button(type="reset").reset Сбросить все
+  .catalog_header.clearfix
+    .catalog_header-right
+      select.catalog_select
+        option(value="#") по рейтингу
+        option(value="#") lorem
+        option(value="#") ipsum
+      a(href="catalog-moto-2.html").icon-list
+        svg(width="30", height="25" style="fill: #e1323d;")
+          use(xlink:href="#icon-list")
+      a(href="catalog-moto-1.html").icon-list
+        svg(width="21", height="20")
+          use(xlink:href="#icon-square")
+    .catalog_header-left
+      p Показано 
+        span 124 
+        | товаров
+  .catalog_cards.clearfix
+    +card2(catalogMoto2)
+
+    
+
+

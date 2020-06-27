@@ -1,0 +1,112 @@
+.promo
+  +desktop
+    background-image: url('../img/promo-bg.jpg')
+    background-repeat: no-repeat
+    background-size: cover
+  .slick-dotted.slick-slider
+    margin-bottom: 0
+  &_wrap
+    +desktop 
+      color: #fff
+    .header
+      +desktop
+        background: none
+        .search,
+        .enter,
+        .basket,
+        .toggle,
+        &_bt
+          svg 
+            fill: #fff
+          .dropdown 
+            background: rgba(25, 25, 25, 0.9)
+      .enter 
+        +desktop
+          background: url('../img/enter-bg.png') no-repeat
+  &_block
+    padding: 50px 0 70px
+    display: none
+    +desktop
+      display: block
+  &_content
+    float: left
+    width: 50%
+    max-width: 490px
+    margin-top: 40px
+    h2 
+      font-weight: 700
+      text-transform: uppercase
+      margin-bottom: 40px
+      font-size: 48px
+    p 
+      margin-bottom: 35px
+      font-size: 18px
+  &_img 
+    float: right
+    margin-right: 50px
+    max-width: 400px
+    width: 50%
+    position: relative
+    +container 
+      margin-right: 100px
+    &.animated
+      opacity: 0
+      animation-duration: 1s
+      animation-fill-mode: both
+    &.activate
+      opacity: 1
+  &_price
+    text-align: center
+    background: url('../img/promo_price-bg.png') no-repeat
+    position: absolute
+    top: -19px
+    right: -58px
+    padding: 8px 15px 
+    span
+      font-weight: 700
+      font-size: 36px
+  &_slide
+    overflow: hidden
+    max-width: 1400px
+    margin: auto
+    background-repeat: no-repeat
+    background-position: right  bottom
+  &_slider 
+    .slick
+      &-dots 
+        max-width: 1180px
+        bottom: 20px
+        left: 50%
+        transform: translateX(-50%)
+        text-align: right
+        li 
+          width: 10px
+          transition: $transition
+          button
+            width: 10px
+            transition: $transition
+            &::before 
+              +positionAbsBeforeAfterElements(0, auto, 0, auto, 8px, 8px)
+              border-radius: 50%
+              background: #fff
+              opacity: 1
+          &.slick-active,
+          &:hover,
+          &:focus
+            transition: $transition
+            width: 45px
+            button 
+              width: 45px
+              &::before
+                width: 45px
+                background: $danger
+                transition: $transition
+                border-radius: 50px
+                opacity: 1
+
+
+
+
+
+
+

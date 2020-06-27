@@ -1,0 +1,25 @@
+include mixin
+
+.filter
+  form.clearfix
+    .filter_box
+      h6 Цена
+      .filter_slider
+        #slider-range.slider-range
+        p
+          input.amount(type="text" id="amount" readonly)
+    +radio(partsAccesRadioItem)
+    .filter_box
+      h6 Цвет
+      .filter_check-circle
+        input(type="radio", id="color1", name="color", checked)
+        label.black(for="color1")
+      .filter_check-circle
+        input(type="radio", id="color2", name="color")
+        label.white(for="color2")
+      .filter_check-circle
+        input(type="radio", id="color3", name="color")
+        label.red(for="color3")
+
+
+

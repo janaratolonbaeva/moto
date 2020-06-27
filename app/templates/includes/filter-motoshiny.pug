@@ -1,0 +1,32 @@
+include mixin
+
+.filter
+  form.clearfix
+    .filter_box
+      h6 Цена
+      .filter_slider
+        #slider-range.slider-range
+        p
+          input.amount(type="text" id="amount" readonly)
+    +radio(motoshinyRadioItem)
+    .filter_box
+      h6 ширина
+      select.filter_select
+        option Все
+        option lorem
+        option ipsum
+    .filter_box
+      h6 Профиль
+      select.filter_select
+        option Все
+        option lorem
+        option ipsum
+    .filter_box
+      h6 диаметр
+      select.filter_select
+        option Все
+        option lorem
+        option ipsum
+  
+
+
